@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Baking Time</string>
+
+    <!-- fragment_steps.xml -->
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+
+    <!-- recipe_widget.xml -->
+    <string name="recipe_body_text">one egg\none cup flour</string>
+    <string name="add_widget">Add widget</string>
+    <string name="recipe_title_text">My Template Recipe</string>
+
+    <string name="desc">My recipe </string>
+</resources>

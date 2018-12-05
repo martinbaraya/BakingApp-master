@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal">
+
+  <FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.3"
+    tools:context=".RecipeActivity"
+    android:id="@+id/step_list_container" />
+
+  <FrameLayout
+    android:layout_width="0dp"
+    android:layout_weight="0.7"
+    android:layout_height="wrap_content"
+    android:id="@+id/exo_player_container" />
+
+</LinearLayout>
